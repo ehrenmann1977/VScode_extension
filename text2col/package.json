@@ -1,0 +1,31 @@
+{
+	"name": "text2col",
+	"description": "convert text to columns",
+	"version": "0.0.1",
+	"publisher": "Sherif Omran",
+	"repository": "",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"activationEvents": [],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.text2col",
+				"title": "Text to column"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.text2col",
+				"key": "shift+alt+w",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.73.0"
+	}
+}
