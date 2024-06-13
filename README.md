@@ -46,14 +46,12 @@ Code kopieren
 <result2>Result of step 2</result2>
 Output:
 
-sql
-Code kopieren
-|---------------|----------------------------------------|----------------------------------------|
 |Test steps     |Test steps description                  |Expected results of test step           |
 |---------------|----------------------------------------|----------------------------------------|
 |step1          |Step 1                                  |Result of step 1                        |
 |step2          |Step 2                                  |Result of step 2                        |
 |---------------|----------------------------------------|----------------------------------------|
+
 Installation
 Open Visual Studio Code.
 Go to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window.
