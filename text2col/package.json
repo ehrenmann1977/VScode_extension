@@ -2,7 +2,7 @@
 	"name": "text2col",
 	"description": "convert text to columns",
 	"version": "0.0.1",
-	"publisher": "Sherif Omran",
+	"publisher": "SherifOmran",
 	"repository": "https://github.com/ehrenmann1977/VScode_extension.git",
 	"engines": {
 		"vscode": "^1.74.0"
