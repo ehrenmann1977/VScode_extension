@@ -21,24 +21,83 @@ Example
 - Input
 --------
 
-<header1>Test steps</header1>
-<header2>Test steps description</header2>
-<header3>Expected results of test step</header3>
-<step1>Step 1</step1>
-<result1>Result of step 1</result1>
-<step2>Step 2</step2>
-<result2>Result of step 2</result2>
-
+<test_case_method_name>Method Name 1</test_case_method_name>
+<test_case_short_description>Short Description </test_case_short_description>
+<test_case_authors_list1>Author 1</test_case_authors_list1>
+<test_case_authors_list2>Author 2</test_case_authors_list2>
+<test_case_authors_email_list1>email1@example.com</test_case_authors_email_list1>
+<test_case_authors_email_list2>email2@example.com</test_case_authors_email_list2>
+<requirements_list_id1> id 1 </requirements_list_id1>
+<requirements_list_hash1> hash 1 </requirements_list_hash1>
+<requirements_list_hashdate1> date 1 </requirements_list_hashdate1>
+<requirements_list_id2> id 2 </requirements_list_id2>
+<requirements_list_hash2> hash 2 </requirements_list_hash2>
+<requirements_list_hashdate2> date 2 </requirements_list_hashdate2>
+<preconditions_list1>Precondition 1</preconditions_list1>
+<preconditions_list2>Precondition 2</preconditions_list2>
+<header1> Test steps </header1>
+<header2> Test steps description</header2> 
+<header3> Expected results of test step</header3>
+<step1> procedure step 1 </step1>
+<result1>result of step 1</result1>
+<step2> procedure step 2 with long description text</step2>
+<result2> result of step 2 with long description text than other</result2>
+<step3> procedure step 3 </step3>
+<result3> result of step3  </result3>
+<step4> procedure step 4 </step4>
+<result4>  result of step 4  </result4>
 
 Output
 ------
 
-|---------------|----------------------------------------|----------------------------------------|
-|Test steps     |Test steps description                  |Expected results of test step           |
-|---------------|----------------------------------------|----------------------------------------|
-|step1          |Step 1                                  |Result of step 1                        |
-|step2          |Step 2                                  |Result of step 2                        |
-|---------------|----------------------------------------|----------------------------------------|
+
+def Method Name 1() -> None:
+
+	Short Description 
+
+
+	Authors:
+		- Author 1
+		- Author 2
+	
+
+	E-mails:
+		- email1@example.com
+		- email2@example.com
+	
+
+	-------------------------------------------------------------------------------
+	|Requirement ID |Requirement Hash              |Hash generation date          |
+	-------------------------------------------------------------------------------
+	|id 1           |hash 1                        |date 1                        |
+	-------------------------------------------------------------------------------
+	|id 2           |hash 2                        |date 2                        |
+	-------------------------------------------------------------------------------
+
+
+
+	preconditions
+	    - Precondition 1
+	    - Precondition 2
+	
+
+
+
+	|---------------|----------------------------------------|----------------------------------------|
+	| Test steps    | Test steps description                 | Expected results of test step          |
+	|---------------|----------------------------------------|----------------------------------------|
+	|step1          | procedure step 1                       |result of step 1                        |
+	|---------------|----------------------------------------|----------------------------------------|
+	|step2          | procedure step 2 with long description | result of step 2 with long description |
+	|               |text                                    |text than other                         |
+	|---------------|----------------------------------------|----------------------------------------|
+	|step3          | procedure step 3                       | result of step3                        |
+	|---------------|----------------------------------------|----------------------------------------|
+	|step4          | procedure step 4                       |  result of step 4                      |
+	|---------------|----------------------------------------|----------------------------------------|
+				
+
+
 
 Installation
 -------------
@@ -107,6 +166,10 @@ Developper
 ----------
 Sherif Omran
 
+
+History
+-------
+Ver 0.2 release n 14.06.2024 with additional fields added for testing
 
 
 
