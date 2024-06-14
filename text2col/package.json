@@ -1,7 +1,7 @@
 {
 	"name": "text2col",
 	"description": "convert text to columns",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "IbEmbeddedSherifOmran",
 	"repository": "https://github.com/ehrenmann1977/VScode_extension.git",
 	"engines": {
