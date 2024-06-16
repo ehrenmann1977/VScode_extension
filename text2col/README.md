@@ -20,7 +20,7 @@ Example
 
 - Input
 --------
-
+```
 <test_case_method_name>Method Name 1</test_case_method_name>
 <test_case_short_description>Short Description </test_case_short_description>
 <test_case_authors_list1>Author 1</test_case_authors_list1>
@@ -45,7 +45,8 @@ Example
 <step3> procedure step 3 </step3>
 <result3> result of step3  </result3>
 <step4> procedure step 4 </step4>
-<result4>  result of step 4  </result4>
+<result4>  result of step 4  </result4>'
+```
 
 Output
 ------
